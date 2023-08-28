@@ -1,0 +1,3 @@
+comment issue. different content id & creator id
+is approved issue
+
