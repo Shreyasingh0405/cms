@@ -34,8 +34,6 @@ const creatordata = await creator.aggregate([
       return res.send({status:1,data:creatordata})
     }
 
-
-
 const gettingDataById = async (req, res) => {
     const dataFetch = req.body
     const creatorDataById = await creator.findById(dataFetch)
