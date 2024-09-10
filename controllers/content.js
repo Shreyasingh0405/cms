@@ -63,5 +63,4 @@ const deleteContent = async (req, res) => {
         return res.send(error.message)
     }
 }
-
 module.exports = { contentCreate, getContent, getContentById, updateContent, deleteContent }
