@@ -72,4 +72,5 @@ const loginCreator = async (req, res) => {
         return res.send(error.message)
     }
 }
+
 module.exports = { creatorRegistration, loginCreator }
