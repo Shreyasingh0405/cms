@@ -1,5 +1,6 @@
 const mongoose = require("mongoose")
 const contentSchema = new mongoose.Schema({
+    
     creatorId: {
         type: mongoose.Schema.Types.ObjectId,
         ref: "creator",
