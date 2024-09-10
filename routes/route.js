@@ -17,5 +17,4 @@ router.delete("/content",authorized,contentController.deleteContent)
 router.post("/comment",authorized,commentController.createComment)
 router.get("/dashboard",authorized, dashController.gettingData)
 router.get("/dashboardById",authorized,dashController.gettingDataById)
-
 module.exports=router
