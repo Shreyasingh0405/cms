@@ -27,6 +27,5 @@ const createComment = async (req, res) => {
     } catch (error) {
         return res.send(error.message)
     }
-
 }
 module.exports = { createComment }
