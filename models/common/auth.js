@@ -29,4 +29,5 @@ const authorized = async (req, res, next) => {
         return res.send(error.message)
     }
 }
+
 module.exports = { authorized }
