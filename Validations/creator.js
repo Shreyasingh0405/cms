@@ -18,8 +18,7 @@ const addCreator = [
             return res.send({ status: 0, response: errors[0].msg })
         } return next()
     }]
-
-    const loginnCreator = [
+ const loginnCreator = [
         check('email').notEmpty().isEmail().withMessage('Email should be required and in proper format'),
         check('password').notEmpty().withMessage('Password should be required'),
     ]
