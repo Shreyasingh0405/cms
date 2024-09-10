@@ -5,7 +5,7 @@ const routes = require("./routes/route")
 const app = express()
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
-mongoose.connect("mongodb+srv://disha123:hl6LMcJIED1eCZhr@cluster0.hrerz.mongodb.net/cms")
+mongoose.connect(process.env.MONGOURL)
     .then(() => {
         console.log("mongodb is connected")
     })
